@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-section-div {
+  background-color: transparent;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0px;
+  bottom: 0px;
+}
+
+.navlinks-display {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+  cursor: pointer;
+}
+.navbar-section-div div img {
+  padding: 2rem;
+}
+.navlinks-display button {
+  border: 1px solid white;
+  background-color: transparent;
+  width: 140px;
+  height: 50px;
+  color: white;
+  border-radius: 4px;
+  margin-top: -25px;
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+/* hero-section css starts here */
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0));
+  /* url("../../assets/header-hero.jpg"); */
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  align-content: center;
+  justify-items: center;
+  color: white;
+}
+.hero-section h4 {
+  font-size: 45px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 4px;
+  font-weight: lighter;
+  margin-bottom: -20px;
+}
+.hero-section h2 {
+  font-size: 100px;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-section p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.hero-section button {
+  border-style: solid;
+  border-radius: 2px;
+  background-color: rgba(243, 243, 15, 0.877);
+  border-color: transparent;
+  width: 150px;
+  height: 45px;
+  cursor: pointer;
+}
+.hero-section button:hover {
+  color: white;
+  background-color: rgb(160, 160, 2);
+}
