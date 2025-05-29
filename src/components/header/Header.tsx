@@ -24,7 +24,7 @@ const Header = () => {
     <!-- hero section starts here--> */}
       <div
         className="hero-section"
-        style={{ backgroundImage: `url(${bgimg})` }}
+        // style={{ backgroundImage: `url(${bgimg})` }}
       >
         <h4>we all love</h4>
         <h2>nature</h2>
